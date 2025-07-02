@@ -35,11 +35,11 @@ int main() {
     // PASSO 2: Calcular Densidade Populacional e PIB per capita 
     // Estes são atributos calculados a partir dos dados existentes.
     
-    // Densidade Populacional = População / Área [cite: 273]
+    // Densidade Populacional = População / Área 
     float carta1_densidade = carta1_populacao / carta1_area;
     float carta2_densidade = carta2_populacao / carta2_area;
     
-    // PIB per capita = (PIB * 1 bilhão) / População [cite: 274]
+    // PIB per capita = (PIB * 1 bilhão) / População 
     // Multiplicamos o PIB por 1.000.000.000 para converter de bilhões para a unidade.
     float carta1_pib_per_capita = (carta1_pib * 1000000000) / carta1_populacao;
     float carta2_pib_per_capita = (carta2_pib * 1000000000) / carta2_populacao;
@@ -61,9 +61,9 @@ int main() {
     printf("  - Densidade: %.2f hab/km²\n\n", carta2_densidade);
     
 
-    // --- PASSO 3, 4 e 5: Comparar um atributo, determinar vencedor e exibir resultado ---
-    // A escolha do atributo (População) é feita diretamente no código. [cite: 276]
-    // A regra é: a carta com o maior valor vence. [cite: 278]
+    // PASSO 3, 4 e 5: Comparar um atributo, determinar vencedor e exibir resultado 
+    // A escolha do atributo (População) é feita diretamente no código. 
+    // A regra é: a carta com o maior valor vence.
     
     printf("#### COMPARANDO AS CARTAS ###\n");
     printf("Atributo de Comparação: População\n");
